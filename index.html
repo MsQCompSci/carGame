@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Car Game</title>
+        <link href="style.css" rel="stylesheet" type= "text/css"> <!---- link to css file -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> <!---- link to Materialize css library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script> <!---  Link to JQuery Library-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"><!----Loading Google Font --->
+
+    </head>
+     <body>
+         <div class = "container">
+             <div class = "row">
+                 <h1 id = "title">Interactive Car</h1>
+               
+             </div>
+             
+             <div class "row">
+            </div>
+            <div class = "row">
+                  <div class="col s1 offset-s1">
+                      <a id = "up" onclick ="p1.moveUp()" class="btn-floating btn-large waves-effect waves-light blue">Up</a>
+                      </div>
+            </div>
+            <div class = "row">
+                <div id = "left" onclick ="p1.moveLeft()" class="col s1"><a class="btn-floating btn-large waves-effect waves-light blue">Left</a></div>
+                 <div class="col s1"></div>
+                 <div class ="col s1">
+                      <a id ="right" onclick ="p1.moveRight()" class="btn-floating btn-large waves-effect waves-light blue">Right</a>
+                  </div>
+            </div>
+            <div class = "row">
+                <div class="col s1"></div>
+                <div class="col s1">
+                <a id ="down" onclick ="p1.moveDown()" class="btn-floating btn-large waves-effect waves-light blue">Down</a>
+                </div>
+            </div>
+
+        </div>
+         <script type ="text/javascript" src ="script.js"></script> <!--- Loads the JS Page -->
+    </body>
+    </html>
